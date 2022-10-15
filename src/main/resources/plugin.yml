@@ -1,0 +1,13 @@
+name: PluginJamUlasim
+version: '${project.version}'
+main: me.acablade.pluginjamulasim.PluginJamUlasim
+api-version: 1.16
+authors: [ Acablade ]
+description: Ulasim plugini
+commands:
+  bladeportal:
+    aliases: [bp]
+    permission: bladeportal.reload
+    permission-message: "§cYetkin yok!"
+    description: "plugini yeniler"
+    usage: "/bladeportal"
